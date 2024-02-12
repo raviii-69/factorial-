@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div>
+    <h1 id="head">hello ravi panwar</h1>
+</div>
+
+<div>
+    <ul class="fruits">
+        <li class="fruit">apple</li>
+        <li class="fruit">Bannana</li>
+        <li class="fruit">kiwi</li>
+        <li class="fruit">pear</li>
+    </ul>
+
+</div>
+
+    <script>
+      const get = document.getElementById("head")
+        get.style.color="red"
+        get.style.backgroundColor="pink"
+
+    const fruit = document.getElementsByClassName("fruit")
+    for(i=0;i<fruit.length;i++){
+        fruit[i].style.color = "red"
+    }
+
+    if(fruit[0]){
+        fruit[0].style.color="red"
+    }
+
+    if(fruit[1]){
+        fruit[1].style.color="yellow"
+    }
+
+    if(fruit[2]){
+        fruit[2].style.color="brown"
+    }
+
+    if(fruit[3]){
+        fruit[3].style.color="limegreen"
+    }
+
+    </script>
+</body>
+</html>
